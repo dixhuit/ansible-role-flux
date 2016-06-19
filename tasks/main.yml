@@ -6,11 +6,13 @@
     HOMEBREW_CASK_OPTS: --appdir={{ homebrew_cask_appdir }}
   notify: brew cask cleanup
 
+# TODO: Make idempotent
 - name: Set location
   command: defaults write org.herf.Flux {{ item }}
   with_items:
     - location -string "{{ flux_location }}"
     - locationTextField -string {{ flux_locationTextField }}
+  changed_when: false
   notify:
     - killall Flux
 
