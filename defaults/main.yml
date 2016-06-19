@@ -2,5 +2,5 @@
 
 flux_locationTextField: "ta126bu"
 flux_location: "50.976297,-2.838684"
-flux_lateColorTemp: 3501
+flux_lateColorTemp: 3500
 flux_nightColorTemp: "{{ flux_lateColorTemp }}"
