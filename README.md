@@ -15,12 +15,6 @@ Installs & configures f.lux on Mac OS X.
 All role default variables are listed below along with their respective default values.
 
 ```
-flux_appdir: "/Applications"
-```
-
-Where to install the app. The value is passed to Homebrew Cask via the `--appdir` option.
-
-```
 flux_locationTextField: "ta126bu"
 ```
 
