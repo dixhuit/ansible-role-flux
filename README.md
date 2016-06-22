@@ -2,12 +2,12 @@
 
 [![Build Status](https://travis-ci.org/danbohea/ansible-role-flux.svg?branch=master)](https://travis-ci.org/danbohea/ansible-role-flux)
 
-Installs & configures f.lux on Mac OS X.
+Installs & configures f.lux on macOS.
 
 
 ## Requirements
 
-- Mac OS 10.9+
+- macOS 10.9+
 
 
 ## Role Variables
