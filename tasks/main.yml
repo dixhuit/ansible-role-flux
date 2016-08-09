@@ -2,8 +2,6 @@
 
 - name: Install f.lux
   homebrew_cask: name=flux state=present
-  environment:
-    HOMEBREW_CASK_OPTS: --appdir={{ homebrew_cask_appdir }}
   notify: brew cask cleanup
 
 # TODO: Make idempotent
