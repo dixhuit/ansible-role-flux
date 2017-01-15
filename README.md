@@ -7,7 +7,7 @@ Installs & configures f.lux on macOS.
 
 ## Requirements
 
-- macOS 10.9+
+- macOS 10.10, 10.11 or 10.12
 
 
 ## Role Variables
@@ -61,4 +61,4 @@ MIT
 
 ## Author Information
 
-This role was created by [Dan Bohea](http://bohea.co.uk) primarily for use with [Macsible](https://github.com/danbohea/macsible).
+This role was created by [Dan Bohea](http://bohea.co.uk) primarily for use with [Macsible](https://github.com/macsible/macsible).
